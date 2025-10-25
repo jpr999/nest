@@ -1317,7 +1317,7 @@ net-im/communi-desktop 3.5.0: A cross-platform IRC framework written with Qt
 net-im/gitter-bin 5.0.1-r2: Chat and network platform
 net-im/slack 4.46.104-r1: Team collaboration tool
 net-im/teams-for-linux 1.9.2: Unofficial Microsoft Teams for Linux client
-net-im/viber 24.9.0.3-r1: Free text and calls
+net-im/viber 24.9.0.3-r2: Free text and calls
 net-libs/bctoolbox 5.4.23 9999: Utilities library used by Belledonne Communications softwares
 net-libs/bzrtp 5.4.23 9999: Media Path Key Agreement for Unicast Secure RTP
 net-libs/ortp 5.4.23 9999: Open Real-time Transport Protocol (RTP, RFC3550) stack
