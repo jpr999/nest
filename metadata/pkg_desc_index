@@ -960,6 +960,7 @@ dev-python/google-cloud-bigquery 3.38.0 9999: Google Cloud BigQuery API client l
 dev-python/google-cloud-bigquery-storage 2.33.1 9999: Google Cloud Bigquery Storage API client library
 dev-python/google-cloud-core 2.4.3 9999: Google Cloud API client core library
 dev-python/google-cloud-datacatalog 3.28.0 9999: Google Cloud Datacatalog API client library
+dev-python/google-cloud-firestore 2.21.0 9999: Google Cloud Firestore API client library
 dev-python/google-cloud-iam 2.19.1 9999: Google Cloud IAM API client library
 dev-python/google-cloud-kms 3.6.0 9999: Python Client for Google Cloud Key Management Service
 dev-python/google-cloud-monitoring 2.27.2 9999: Google Cloud Monitoring API client library
@@ -1082,7 +1083,7 @@ dev-python/pypsrp 0.8.1 9999: PowerShell Remoting Protocol and WinRM for Python
 dev-python/pypykatz 0.6.11 9999: Python library to extract passwords from memory
 dev-python/pystache 0.6.5 9999: Mustache templating system for Python
 dev-python/pytest-benchmark 5.1.0 9999: py.test fixture for benchmarking code
-dev-python/pytest-celery 1.2.0 9999: A shim pytest plugin to enable celery.contrib.pytest
+dev-python/pytest-celery 1.2.1 9999: A shim pytest plugin to enable celery.contrib.pytest
 dev-python/pytest-codspeed 4.0.0 9999: Pytest plugin to create CodSpeed benchmarks
 dev-python/pytest-databases 0.15.0 9999: Reusable database fixtures for any and all databases
 dev-python/pytest-datadir-ng 1.1.1 9999: Fixtures for pytest to retrieve test resources from filesystem
