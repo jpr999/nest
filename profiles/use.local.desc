@@ -2,6 +2,8 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+acct-user/angie:icingaweb2 - Prepare group membership for www-apps/icingaweb2
+acct-user/angie:mgraph - Prepare group membership for net-mail/mailgraph
 app-admin/reprepro:archive - Enable archive support using app-arch/libarchive
 app-admin/reprepro:gpg - Enable gpgme support using app-crypt/gpgme
 app-admin/spotinfo:embed-data-files - Embed data files in binary
@@ -38,6 +40,8 @@ app-emulation/vmware-workstation:vmware-tools-winPreVista - Install VMware Tools
 app-emulation/vmware-workstation:vmware-tools-windows - Install VMware Tools for Windows (Vista and later) guests
 app-metrics/amazon-cloudwatch-agent:otel - Support Amazon Opentelemetry Collector
 app-metrics/aws-otel-collector:cwagent - Compatibility with CloudWatch agent
+app-misc/mime-types:angie - Enable mime-types support for www-servers/angie
+app-misc/mime-types:nginx - Enable mime-types support for www-servers/nginx
 app-misc/tmux-cpu:nvidia - Enable reading of nvidia card temperature sensors via x11-drivers/nvidia-drivers
 app-misc/tmux-powerline:mpd - Enable support for the Music Player Daemon
 app-misc/tmux-resurrect:neovim - Support for app-editors/neovim
@@ -755,6 +759,91 @@ www-plugins/bypass-paywalls:chromium - Install plugin for www-client/chromium
 www-plugins/chrome-token-signing:chromium - Install plugin for www-client/chromium
 www-plugins/chrome-token-signing:firefox - Install plugin for www-client/firefox
 www-plugins/chrome-token-signing:vivaldi - Install plugin for www-client/vivaldi
+www-servers/angie:aio - Enable asynchronous I/O support
+www-servers/angie:angie_modules_http_access - Add support for a simple host-based access control
+www-servers/angie:angie_modules_http_acme - Add support for automatic certificate acquisition though the use of ACME protocol
+www-servers/angie:angie_modules_http_addition - Add support for adding contents of other locations before and after the current location's content
+www-servers/angie:angie_modules_http_api - Add support for HTTP RESTful interface
+www-servers/angie:angie_modules_http_auth_basic - Add support for limiting access to a location by validating the username and password using the HTTP Basic Authentication
+www-servers/angie:angie_modules_http_auth_request - Add support for client authorization based on the result of a subrequest
+www-servers/angie:angie_modules_http_autoindex - Add support for processing requests ending with the slash character ('/') and produciing a directory listing
+www-servers/angie:angie_modules_http_browser - Add support for creating variables whose values depend on the value of the "User-Agent" request header field
+www-servers/angie:angie_modules_http_charset - Add support for adding the specified charset to the "Content-Type" response header field and reencoding singe-byte charsets
+www-servers/angie:angie_modules_http_dav - Add support for the WebDAV functionality and methods: PUT, DELETE, MKCOL, COPY and MOVE
+www-servers/angie:angie_modules_http_degradation - Add support for returning 204 or 444 code for some locations on low memory condition (reliable on FreeBSD only)
+www-servers/angie:angie_modules_http_docker - Add support for dynamic updating of proxied server groups based on Docker (or Podman) container labels
+www-servers/angie:angie_modules_http_empty_gif - Add support for emiting a single-pixel transparent GIF
+www-servers/angie:angie_modules_http_fastcgi - Add support for passing requests to a FastCGI server
+www-servers/angie:angie_modules_http_flv - Add support for the server-side pseudo-streaming of Flash Video (FLV) files
+www-servers/angie:angie_modules_http_geo - Add support for creating variables whose values depend on the client IP-address
+www-servers/angie:angie_modules_http_geoip - Add support for creating variables whose values depend on the client IP-address, using the precompiled MaxMind databases
+www-servers/angie:angie_modules_http_grpc - Add support for passing requests to a gRPC server
+www-servers/angie:angie_modules_http_gunzip - Add support for decompressing responses with "Content-Encoding: gzip" for clients that do not support "gzip" encoding method
+www-servers/angie:angie_modules_http_gzip - Add support for compressing responses using the "gzip" method
+www-servers/angie:angie_modules_http_gzip_static - Add support for sending precompressed files with the ".gz" filename extension instead of regular files
+www-servers/angie:angie_modules_http_image_filter - Add support for transforming images in JPEG, GIF, PNG, and WebP formats
+www-servers/angie:angie_modules_http_limit_conn - Add support for limiting the number of connections per a defined key, e.g. the number of connections from a single IP address
+www-servers/angie:angie_modules_http_limit_req - Add support for limiting the request processing rate per a defined key, e.g. the processing rate of requests coming from a single IP address
+www-servers/angie:angie_modules_http_map - Add support for creating variables whose values depend on values of other variables
+www-servers/angie:angie_modules_http_memcached - Add support for obtaining responses from a memcached server
+www-servers/angie:angie_modules_http_mirror - Add support for mirroring of the original request by creating background mirror subrequests
+www-servers/angie:angie_modules_http_mp4 - Add support for server-side pseudo-streaming for MP4 files
+www-servers/angie:angie_modules_http_perl - Add support for implementing location and variable handlers in Perl and inserting Perl calls into SSI
+www-servers/angie:angie_modules_http_prometheus - Add support for export of varied statistics metrics in Prometheus format
+www-servers/angie:angie_modules_http_proxy - Add support for passing subrequests to another server
+www-servers/angie:angie_modules_http_random_index - Add support for processing requests ending with the slash character ('/') by picking a random file in a directory to serve as an index file
+www-servers/angie:angie_modules_http_realip - Add support for setting the client address and optional port to those sent in the specified header field (e.g. "X-Real-IP" or "X-Forwarded-For")
+www-servers/angie:angie_modules_http_referer - Add support for blocking access to a site for requests with invalid values in the "Referer" header field
+www-servers/angie:angie_modules_http_rewrite - Add support for changing the request URI using PCRE regular expressions, returning redirects, and conditionally selecting configurations
+www-servers/angie:angie_modules_http_scgi - Add support for passing requests to an SCGI server
+www-servers/angie:angie_modules_http_secure_link - Add support for checking authenticity of requested links, protecting resources from unauthorized access, and limiting link lifetime
+www-servers/angie:angie_modules_http_slice - Add support for spliting a request into subrequests, each returning a certain range of response
+www-servers/angie:angie_modules_http_split_clients - Add support for creating variables suitable for A/B testing, also known as split testing
+www-servers/angie:angie_modules_http_ssi - Add support for processing SSI (Server Side Includes) commands in responses passing through NGINX
+www-servers/angie:angie_modules_http_stub_status - Add support for providing access to basic status information
+www-servers/angie:angie_modules_http_sub - Add support for modifying a response by replacing one specified string by another
+www-servers/angie:angie_modules_http_upstream_hash - Add support for distributing upstream requests based on hashed key value
+www-servers/angie:angie_modules_http_upstream_ip_hash - Add support for distributing upstream requests based on the IP-address of the client
+www-servers/angie:angie_modules_http_upstream_keepalive - Add support for caching connections to upstream servers
+www-servers/angie:angie_modules_http_upstream_least_conn - Add support for passing upstream requests to the server with the least number of active connections
+www-servers/angie:angie_modules_http_upstream_random - Add support for passing upstream requests to a randomly selected server
+www-servers/angie:angie_modules_http_upstream_sticky - Add support for sticky sessions mode where all connections in the session are routed to the same server
+www-servers/angie:angie_modules_http_upstream_zone - Add support for defining a shared memory zone that keeps the group's configuration and run-time state that are shared between worker processes
+www-servers/angie:angie_modules_http_userid - Add support for setting cookies suitable for client identification
+www-servers/angie:angie_modules_http_uwsgi - Add support for passing requests to a uwsgi server
+www-servers/angie:angie_modules_http_xslt - Add support for transforming XML responses using one or more XSLT stylesheets
+www-servers/angie:angie_modules_mail_imap - Add support for proxying IMAP messages
+www-servers/angie:angie_modules_mail_pop3 - Add support for proxying POP3 messages
+www-servers/angie:angie_modules_mail_smtp - Add support for proxying SMTP messages
+www-servers/angie:angie_modules_stream_access - Add support for a simple host-based access control
+www-servers/angie:angie_modules_stream_acme - Add support for automatic certificate acquisition though the use of ACME protocol
+www-servers/angie:angie_modules_stream_geo - Add support for creating variables whose values depend on the client IP-address
+www-servers/angie:angie_modules_stream_geoip - Add support for creating variables whose values depend on the client IP-address, using the precompiled MaxMind databases
+www-servers/angie:angie_modules_stream_limit_conn - Add support for limiting the number of connections per a defined key, e.g. the number of connections from a single IP address
+www-servers/angie:angie_modules_stream_map - Add support for creating variables whose values depend on the values of other variables
+www-servers/angie:angie_modules_stream_mqtt_preread - Add support for extracting the username and client ID from the CONNECT packet of the MQTT protocol
+www-servers/angie:angie_modules_stream_pass - Add support for passing the accepted connection directly to any configured listening socket in "http", "stream", "mail", and other similar modules
+www-servers/angie:angie_modules_stream_rdp_preread - Add support for extraction of Cookie values from RDP connections
+www-servers/angie:angie_modules_stream_realip - Add support for setting the client address and optional port to those sent in the specified header field (e.g. "X-Real-IP" or "X-Forwarded-For")
+www-servers/angie:angie_modules_stream_return - Add support for sending a specified value to the client and then closing the connection
+www-servers/angie:angie_modules_stream_set - Add support for setting a value for a variable
+www-servers/angie:angie_modules_stream_split_clients - Add support for creating variables suitable for A/B testing, also known as split testing
+www-servers/angie:angie_modules_stream_ssl_preread - Add SSL/TLS protocol support to a stream proxy server
+www-servers/angie:angie_modules_stream_upstream_hash - Add support for distributing upstream requests based on hashed key value
+www-servers/angie:angie_modules_stream_upstream_least_conn - Add support for passing upstream requests to the server with the least number of active connections
+www-servers/angie:angie_modules_stream_upstream_random - Add support for passing upstream requests to a randomly selected server
+www-servers/angie:angie_modules_stream_upstream_sticky - Add support for sticky sessions mode where all connections in the session are routed to the same server
+www-servers/angie:angie_modules_stream_upstream_zone - Add support for defining a shared memory zone that keeps the group's configuration and run-time state that are shared between worker processes
+www-servers/angie:debug - Enable support for debugging log
+www-servers/angie:http - Enable core HTTP support
+www-servers/angie:http-cache - Enable HTTP cache support
+www-servers/angie:http2 - Enable HTTP2 module support
+www-servers/angie:http3 - Enable HTTP3 module support
+www-servers/angie:libatomic - Use dev-libs/libatomic_ops instead of builtin atomic operations
+www-servers/angie:pcre-jit - Enable JIT for pcre
+www-servers/angie:pcre2 - Enable support for pcre2
+www-servers/angie:rtmp - NGINX-based Media Streaming Server
+www-servers/angie:ssl - Enable HTTPS module for http and mail
 x11-libs/libvdpau-va-gl:system-vdpau - Use the headers from x11-libs/libvdpau instead of bundled
 x11-misc/libinput-gestures:experimental - avoid producing zombie processes
 x11-themes/WhiteSur-icon-theme:all - Install all colors
