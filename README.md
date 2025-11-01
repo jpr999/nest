@@ -1,6 +1,6 @@
 # nest overlay
 
-[![Number of ebuilds: 1348](https://img.shields.io/badge/ebuild-1348-orange.svg)](https://img.shields.io/badge/ebuild-1348-orange.svg)
+[![Number of ebuilds: 1352](https://img.shields.io/badge/ebuild-1352-orange.svg)](https://img.shields.io/badge/ebuild-1352-orange.svg)
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)](https://img.shields.io/github/repo-size/SpiderX/portage-overlay.svg)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2323/badge)](https://bestpractices.coreinfrastructure.org/en/projects/2323)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://www.conventionalcommits.org)
@@ -151,6 +151,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   app-misc/[jshon](http://kmkeen.com/jshon/) | JSON parser designed for maximum convenience within the shell
 *   app-misc/[jsqry-cli2-bin](https://github.com/jsqry/jsqry-cli2) | CLI tool (similar to jq) to query JSON using sane DSL
 *   app-misc/[kando-bin](https://github.com/kando-menu/kando) | A pie menu for the desktop
+*   app-misc/[mime-types](https://pagure.io/mailcap) | Provides /etc/mime.types file
 *   app-misc/[mop](https://github.com/mop-tracker/mop) | Stock market tracker for hackers
 *   [![Gentoo package](https://repology.org/badge/version-for-repo/gentoo/pet.svg?header=)](https://repology.org/project/pet/versions) app-misc/[pet](https://github.com/knqyf263/pet) | Simple command-line snippet manager
 *   app-misc/[tmux-autoreload](https://github.com/b0o/tmux-autoreload) | Automatically reload your tmux config file on change
@@ -596,6 +597,8 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   dev-ml/[ocaml-xmlplaylist](https://github.com/savonet/ocaml-xmlplaylist) | OCaml module to parse various RSS playlist formats
 *   dev-ml/[tsdl](https://github.com/dbuenzli/tsdl) | Thin bindings to SDL for OCaml
 *   dev-ml/[xmlm](https://github.com/dbuenzli/xmlm) | Ocaml XML manipulation module
+*   dev-perl/[Protocol-WebSocket]() | WebSocket protocol
+*   dev-perl/[SCGI]() | SCGI interface module
 *   dev-php/[amphp-amp](https://github.com/amphp/amp) | A non-blocking concurrency framework for PHP applications
 *   dev-php/[amphp-byte-stream](https://github.com/amphp/byte-stream) | A non-blocking stream abstraction for PHP based on Amp
 *   dev-php/[amphp-cache](https://github.com/amphp/cache) | A fiber-aware cache API
@@ -1424,6 +1427,7 @@ This overlay consists of an [Gentoo Portage](https://www.gentoo.org/) ebuilds fo
 *   www-plugins/[chrome-token-signing](https://github.com/open-eid/chrome-token-signing) | Native client and extension for signing with your eID on the web
 *   www-plugins/[eusw](https://iit.com.ua) | IIT End User CA-1 browser extension
 *   www-plugins/[vdhcoapp-bin](https://github.com/aclap-dev/vdhcoapp) | Companion application for Video DownloadHelper browser add-on
+*   www-servers/[angie](https://github.com/webserver-llc/angie) | Efficient, powerful and scalable reverse proxy and web server
 *   www-servers/[gitlab-workhorse](https://gitlab.com/gitlab-org/gitlab-workhorse) | GitLab reverse proxy
 *   www-servers/[imgproxy](https://github.com/imgproxy/imgproxy) | Server for resizing and converting remote images
 *   x11-libs/[libvdpau-va-gl](https://github.com/i-rinat/libvdpau-va-gl) | VDPAU driver with OpenGL/VAAPI backend
