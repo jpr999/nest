@@ -153,9 +153,9 @@ app-crypt/digidoc4-client 4.8.0 9999: Digital signing and encrypting documents
 app-crypt/labca 25.03 9999: A private Certificate Authority for internal (lab) use
 app-crypt/qesteidutil 3.12.10 9999: Estonian ID card management desktop utility
 app-crypt/rolesanywhere-credential-helper 1.6.0 9999: AWS IAM Roles Anywhere Credential Helper
-app-crypt/step-ca 0.28.3 9999: A private certificate authority and ACME server
-app-crypt/step-cli 0.28.6 9999: A zero trust swiss army knife for working with X509
-app-crypt/step-kms-plugin 0.13.0 9999: A private certificate authority and ACME server
+app-crypt/step-ca 0.28.4 9999: A private certificate authority and ACME server
+app-crypt/step-cli 0.28.7 9999: A zero trust swiss army knife for working with X509
+app-crypt/step-kms-plugin 0.15.0 9999: A private certificate authority and ACME server
 app-crypt/totp 1.1.2 9999: Time-Based One-Time Password Code Generator
 app-crypt/web-eid 2.7.0 9999: Digital signing and authentication operations with electronic ID
 app-editors/NotepadNext 0.12 9999: A cross-platform reimplementation of Notepad++
@@ -274,7 +274,7 @@ dev-db/postgresql_anonymizer 2.0.0 9999: Anonymization & Data Masking for Postgr
 dev-db/soci 4.0.3 4.1.2 9999: Database access library for C++
 dev-db/sqlbench 1.1.0 9999: Measures and compares execution time of one or more SQL queries
 dev-db/sqlpackage 170.0.94.3: Automates SQL Server database development tasks
-dev-db/step-badger 6.3.0 9999: Exporting data out of the badger database of step-ca
+dev-db/step-badger 6.5.0 9999: Exporting data out of the badger database of step-ca
 dev-db/tableplus 1.2.6.264: Modern, native, and friendly GUI tool for relational databases
 dev-db/usql 0.9.0 9999: Universal command-line interface for SQL databases
 dev-haskell/aeson-qq 0.8.4: JSON quasiquoter for Haskell
@@ -1141,7 +1141,7 @@ dev-python/sphinx-mdinclude 0.6.2 9999: Markdown extension for Sphinx
 dev-python/sphinxcontrib-openapi 0.8.4 9999: Sphinx extension to generate APIs docs from OpenAPI
 dev-python/sqlmodel 0.0.25 9999: SQL databases in Python
 dev-python/sse-starlette 3.0.2 9999: SSE plugin for Starlette
-dev-python/ssh2-python 1.0.0 9999: Super fast SSH2 protocol library, Python bindings for libssh2
+dev-python/ssh2-python 1.2.0 9999: Super fast SSH2 protocol library, Python bindings for libssh2
 dev-python/stone 3.3.9 9999: The Official Api Spec Language for Dropbox
 dev-python/strawberry-graphql 0.284.0 9999: A library for creating GraphQL APIs
 dev-python/strawberry-graphql-django 0.66.2 9999: Strawberry GraphQL Django extension
