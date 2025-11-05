@@ -126,7 +126,6 @@ app-admin/ripe-atlas-tools 3.1.1 9999: The official command-line client for RIPE
 app-admin/saw 0.2.2 9999: Fast, multi-purpose tool for AWS CloudWatch Logs
 app-admin/semaphore-bin 2.15.0: Modern UI for Ansible
 app-admin/sinker 0.18.0 9999: Sync images from one container registry to another
-app-admin/sops 3.8.1 9999: Simple and flexible tool for managing secrets
 app-admin/spotinfo 1.0.7 9999: Exploring AWS EC2 Spot inventory
 app-admin/terraform-provider-proxmox 0.64.0 9999: Terraform Provider for Proxmox
 app-admin/terraform-provider-vcd 3.14.0 9999: Terraform VMware vCloud Director provider
@@ -153,6 +152,7 @@ app-crypt/digidoc4-client 4.8.0 9999: Digital signing and encrypting documents
 app-crypt/labca 25.03 9999: A private Certificate Authority for internal (lab) use
 app-crypt/qesteidutil 3.12.10 9999: Estonian ID card management desktop utility
 app-crypt/rolesanywhere-credential-helper 1.6.0 9999: AWS IAM Roles Anywhere Credential Helper
+app-crypt/sops 3.11.0 9999: Simple and flexible tool for managing secrets
 app-crypt/step-ca 0.28.4 9999: A private certificate authority and ACME server
 app-crypt/step-cli 0.28.7 9999: A zero trust swiss army knife for working with X509
 app-crypt/step-kms-plugin 0.15.0 9999: A private certificate authority and ACME server
